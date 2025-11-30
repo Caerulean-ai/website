@@ -300,7 +300,7 @@
                 <!-- Feature 3: Whiteboard & AI -->
                 <div class="grid md:grid-cols-2 gap-12 items-center">
                     <div class="order-2 md:order-1 bg-white rounded-xl overflow-hidden border border-slate-200 shadow-xl">
-                        <img src="https://googleusercontent.com/image_collection/image_retrieval/2948155396394704910" alt="AI Coding" class="w-full h-auto">
+                        <img src="https://share.google/veyXrThOKXvIhqYtf" alt="AI Coding" class="w-full h-auto">
                     </div>
                     <div class="order-1 md:order-2">
                         <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-6">
