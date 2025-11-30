@@ -169,38 +169,37 @@
                 </div>
             </div>
 
-            <!-- Pain Points -->
-            <div class="bg-white border border-slate-200 rounded-3xl overflow-hidden shadow-lg">
-                <div class="grid md:grid-cols-2">
-                    <div class="p-10 flex flex-col justify-center">
-                        <h3 class="font-display text-3xl font-bold text-slate-900 mb-8">Major Pain Points</h3>
-                        <ul class="space-y-6">
-                            <li class="flex items-start">
-                                <i class="fa-solid fa-xmark text-red-500 mt-1 mr-4 bg-red-50 p-1 rounded-full"></i>
-                                <div>
-                                    <strong class="text-slate-800 block">Frequent Tool Switching</strong>
-                                    <span class="text-slate-500">The frustration of switching between five different tools just to make one update.</span>
-                                </div>
-                            </li>
-                            <li class="flex items-start">
-                                <i class="fa-solid fa-xmark text-red-500 mt-1 mr-4 bg-red-50 p-1 rounded-full"></i>
-                                <div>
-                                    <strong class="text-slate-800 block">Redundant Documentation</strong>
-                                    <span class="text-slate-500">GDDs are lengthy, boring, and difficult to keep in sync with actual development.</span>
-                                </div>
-                            </li>
-                            <li class="flex items-start">
-                                <i class="fa-solid fa-xmark text-red-500 mt-1 mr-4 bg-red-50 p-1 rounded-full"></i>
-                                <div>
-                                    <strong class="text-slate-800 block">Lack of AI Assistance</strong>
-                                    <span class="text-slate-500">No dedicated AI programming tools specifically designed for game design workflows.</span>
-                                </div>
-                            </li>
-                        </ul>
+            <!-- Pain Points (Modified Layout: Removed Image, Centered Text) -->
+            <div class="bg-white border border-slate-200 rounded-3xl overflow-hidden shadow-lg max-w-5xl mx-auto">
+                <div class="p-12">
+                    <div class="text-center mb-10">
+                         <h3 class="font-display text-3xl font-bold text-slate-900">Major Pain Points</h3>
+                         <p class="text-slate-500 mt-2">What slows down development today?</p>
                     </div>
-                    <div class="h-64 md:h-auto relative">
-                        <img src="https://googleusercontent.com/image_collection/image_retrieval/16533770773249284084" alt="Frustrated Developer" class="w-full h-full object-cover grayscale opacity-90 hover:grayscale-0 transition-all duration-500">
-                    </div>
+                   
+                    <ul class="space-y-6 max-w-3xl mx-auto">
+                        <li class="flex items-start bg-slate-50 p-4 rounded-xl">
+                            <i class="fa-solid fa-xmark text-red-500 mt-1 mr-4 bg-red-100 p-1.5 rounded-full text-sm w-7 h-7 flex items-center justify-center"></i>
+                            <div>
+                                <strong class="text-slate-900 block text-lg">Frequent Tool Switching</strong>
+                                <span class="text-slate-600">The frustration of switching between five different tools just to make one update.</span>
+                            </div>
+                        </li>
+                        <li class="flex items-start bg-slate-50 p-4 rounded-xl">
+                            <i class="fa-solid fa-xmark text-red-500 mt-1 mr-4 bg-red-100 p-1.5 rounded-full text-sm w-7 h-7 flex items-center justify-center"></i>
+                            <div>
+                                <strong class="text-slate-900 block text-lg">Redundant Documentation</strong>
+                                <span class="text-slate-600">GDDs are lengthy, boring, and difficult to keep in sync with actual development.</span>
+                            </div>
+                        </li>
+                        <li class="flex items-start bg-slate-50 p-4 rounded-xl">
+                            <i class="fa-solid fa-xmark text-red-500 mt-1 mr-4 bg-red-100 p-1.5 rounded-full text-sm w-7 h-7 flex items-center justify-center"></i>
+                            <div>
+                                <strong class="text-slate-900 block text-lg">Lack of AI Assistance</strong>
+                                <span class="text-slate-600">No dedicated AI programming tools specifically designed for game design workflows.</span>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -247,67 +246,64 @@
         </div>
     </section>
 
-    <!-- Features Grid -->
+    <!-- Features Grid (Modified Layouts: Removed Images) -->
     <section id="features" class="py-24 bg-slate-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 class="font-display text-4xl font-bold text-slate-900 mb-16 border-l-4 border-cyan-600 pl-6">Core Features</h2>
 
-            <div class="space-y-24">
+            <div class="space-y-16">
                 
                 <!-- Feature 1: Asset Management & Balancing -->
-                <div class="grid md:grid-cols-2 gap-12 items-center">
-                    <div class="order-2 md:order-1">
-                        <div class="bg-white rounded-xl overflow-hidden border border-slate-200 shadow-xl">
-                            <img src="https://googleusercontent.com/image_collection/image_retrieval/14007413990504154610" alt="Asset Management" class="w-full h-auto">
-                        </div>
-                    </div>
-                    <div class="order-1 md:order-2">
-                        <div class="w-12 h-12 bg-cyan-100 rounded-lg flex items-center justify-center mb-6">
-                            <i class="fa-solid fa-cubes text-cyan-700 text-xl"></i>
+                <div class="bg-white p-10 rounded-2xl border border-slate-200 shadow-sm max-w-4xl mx-auto hover:shadow-md transition-shadow">
+                    <div class="flex flex-col items-center text-center">
+                        <div class="w-16 h-16 bg-cyan-100 rounded-2xl flex items-center justify-center mb-6">
+                            <i class="fa-solid fa-cubes text-cyan-700 text-2xl"></i>
                         </div>
                         <h3 class="font-display text-3xl font-bold text-slate-900 mb-4">Asset Management</h3>
-                        <p class="text-slate-600 mb-6 text-lg">
+                        <p class="text-slate-600 mb-8 text-lg max-w-2xl">
                             A centralized repository for all game assets. Seamless integration with game engines via <strong>drag-and-drop</strong>. Built-in version control for art and audio resources ensures the team is always up to date.
                         </p>
-                        <h3 class="font-display text-3xl font-bold text-slate-900 mb-4 mt-8">Numerical Balancing</h3>
-                        <p class="text-slate-600 text-lg">
-                            Real-time spreadsheets for game balancing. Adjust character stats, weapon damage, and economy values directly in Keco Studio and <strong>sync in real-time</strong> to the game engine.
-                        </p>
+                        
+                        <div class="w-full h-px bg-slate-100 my-4"></div>
+
+                        <div class="mt-8">
+                             <div class="w-16 h-16 bg-emerald-100 rounded-2xl flex items-center justify-center mb-6 mx-auto">
+                                <i class="fa-solid fa-scale-balanced text-emerald-700 text-2xl"></i>
+                            </div>
+                            <h3 class="font-display text-3xl font-bold text-slate-900 mb-4">Numerical Balancing</h3>
+                            <p class="text-slate-600 text-lg max-w-2xl mx-auto">
+                                Real-time spreadsheets for game balancing. Adjust character stats, weapon damage, and economy values directly in Keco Studio and <strong>sync in real-time</strong> to the game engine.
+                            </p>
+                        </div>
                     </div>
                 </div>
 
                 <!-- Feature 2: Task Management & GDD -->
-                <div class="grid md:grid-cols-2 gap-12 items-center">
-                    <div>
-                        <div class="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center mb-6">
-                            <i class="fa-solid fa-list-check text-indigo-700 text-xl"></i>
+                <div class="bg-white p-10 rounded-2xl border border-slate-200 shadow-sm max-w-4xl mx-auto hover:shadow-md transition-shadow">
+                    <div class="flex flex-col items-center text-center">
+                        <div class="w-16 h-16 bg-indigo-100 rounded-2xl flex items-center justify-center mb-6">
+                            <i class="fa-solid fa-list-check text-indigo-700 text-2xl"></i>
                         </div>
                         <h3 class="font-display text-3xl font-bold text-slate-900 mb-4">Task Management & GDD</h3>
-                        <p class="text-slate-600 mb-6 text-lg">
+                        <p class="text-slate-600 mb-8 text-lg max-w-2xl">
                             Lightweight project tracking designed for game studios. Create, organize, and maintain professional game design documents that bring your vision to life.
                         </p>
-                        <ul class="text-slate-600 space-y-2">
-                            <li><i class="fa-solid fa-check text-cyan-600 mr-2"></i> Structured Development Tables</li>
-                            <li><i class="fa-solid fa-check text-cyan-600 mr-2"></i> Kanban Views</li>
-                            <li><i class="fa-solid fa-check text-cyan-600 mr-2"></i> Real-time Document Collaboration</li>
-                        </ul>
-                    </div>
-                    <div class="bg-white rounded-xl overflow-hidden border border-slate-200 shadow-xl">
-                        <img src="https://googleusercontent.com/image_collection/image_retrieval/1713815243183266950" alt="Kanban Board" class="w-full h-auto">
+                        <div class="flex flex-wrap justify-center gap-4">
+                            <span class="px-4 py-2 bg-slate-50 rounded-full text-slate-700 font-medium border border-slate-200"><i class="fa-solid fa-check text-cyan-600 mr-2"></i> Structured Tables</span>
+                            <span class="px-4 py-2 bg-slate-50 rounded-full text-slate-700 font-medium border border-slate-200"><i class="fa-solid fa-check text-cyan-600 mr-2"></i> Kanban Views</span>
+                            <span class="px-4 py-2 bg-slate-50 rounded-full text-slate-700 font-medium border border-slate-200"><i class="fa-solid fa-check text-cyan-600 mr-2"></i> Real-time Docs</span>
+                        </div>
                     </div>
                 </div>
 
                 <!-- Feature 3: Whiteboard & AI -->
-                <div class="grid md:grid-cols-2 gap-12 items-center">
-                    <div class="order-2 md:order-1 bg-white rounded-xl overflow-hidden border border-slate-200 shadow-xl">
-                        <img src="https://share.google/veyXrThOKXvIhqYtf" alt="AI Coding" class="w-full h-auto">
-                    </div>
-                    <div class="order-1 md:order-2">
-                        <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-6">
-                            <i class="fa-solid fa-wand-magic-sparkles text-purple-700 text-xl"></i>
+                <div class="bg-white p-10 rounded-2xl border border-slate-200 shadow-sm max-w-4xl mx-auto hover:shadow-md transition-shadow">
+                    <div class="flex flex-col items-center text-center">
+                        <div class="w-16 h-16 bg-purple-100 rounded-2xl flex items-center justify-center mb-6">
+                            <i class="fa-solid fa-wand-magic-sparkles text-purple-700 text-2xl"></i>
                         </div>
                         <h3 class="font-display text-3xl font-bold text-slate-900 mb-4">Whiteboard & AI Creative Coding</h3>
-                        <p class="text-slate-600 mb-6 text-lg">
+                        <p class="text-slate-600 text-lg max-w-2xl">
                             A shared digital whiteboard for sketching mechanics. Accelerate your creative workflow with AI that understands game development—generate assets, prototype mechanics, and translate visions into code.
                         </p>
                     </div>
