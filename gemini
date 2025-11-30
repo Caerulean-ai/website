@@ -3,7 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO & Social Sharing (Crucial for GitHub Pages) -->
     <title>Keco Studio - Game Design & Development Platform</title>
+    <meta name="description" content="Keco Studio: Create smarter, Build faster, Play sooner. The all-in-one platform for game designers with seamless engine integration.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kecostudio.com/">
+    <meta property="og:title" content="Keco Studio - The Future of Game Design">
+    <meta property="og:description" content="An all-in-one collaborative platform for game designers featuring asset management, numerical balancing, and AI creative coding.">
+    <meta property="og:image" content="https://googleusercontent.com/image_collection/image_retrieval/9772743454186027867">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://kecostudio.com/">
+    <meta property="twitter:title" content="Keco Studio - The Future of Game Design">
+    <meta property="twitter:description" content="Create smarter, Build faster, Play sooner. The unified workspace for indie game studios.">
+    <meta property="twitter:image" content="https://googleusercontent.com/image_collection/image_retrieval/9772743454186027867">
+
+    <!-- Favicon (Prevents 404 on deployment) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎮</text></svg>">
+
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -94,7 +115,8 @@
     <section class="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
         <!-- Background Image with Overlay -->
         <div class="absolute inset-0 z-0">
-            <img src="http://googleusercontent.com/image_collection/image_retrieval/9772743454186027867" alt="Game Dev Setup" class="w-full h-full object-cover opacity-20">
+            <!-- UPDATED: HTTPS Protocol for GitHub Pages compatibility -->
+            <img src="https://googleusercontent.com/image_collection/image_retrieval/9772743454186027867" alt="Game Dev Setup" class="w-full h-full object-cover opacity-20">
             <div class="absolute inset-0 bg-gradient-to-b from-slate-950/50 via-slate-950/80 to-slate-950"></div>
         </div>
         
@@ -187,7 +209,8 @@
                         </ul>
                     </div>
                     <div class="h-64 md:h-auto relative">
-                        <img src="http://googleusercontent.com/image_collection/image_retrieval/16533770773249284084" alt="Frustrated Developer" class="w-full h-full object-cover grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-500">
+                        <!-- UPDATED: HTTPS Protocol -->
+                        <img src="https://googleusercontent.com/image_collection/image_retrieval/16533770773249284084" alt="Frustrated Developer" class="w-full h-full object-cover grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-500">
                     </div>
                 </div>
             </div>
@@ -247,7 +270,8 @@
                 <div class="grid md:grid-cols-2 gap-12 items-center">
                     <div class="order-2 md:order-1">
                         <div class="bg-slate-900 rounded-xl overflow-hidden border border-slate-800 shadow-2xl">
-                            <img src="http://googleusercontent.com/image_collection/image_retrieval/14007413990504154610" alt="Asset Management" class="w-full h-auto">
+                            <!-- UPDATED: HTTPS Protocol -->
+                            <img src="https://googleusercontent.com/image_collection/image_retrieval/14007413990504154610" alt="Asset Management" class="w-full h-auto">
                         </div>
                     </div>
                     <div class="order-1 md:order-2">
@@ -282,14 +306,16 @@
                         </ul>
                     </div>
                     <div class="bg-slate-900 rounded-xl overflow-hidden border border-slate-800 shadow-2xl">
-                        <img src="http://googleusercontent.com/image_collection/image_retrieval/1713815243183266950" alt="Kanban Board" class="w-full h-auto">
+                        <!-- UPDATED: HTTPS Protocol -->
+                        <img src="https://googleusercontent.com/image_collection/image_retrieval/1713815243183266950" alt="Kanban Board" class="w-full h-auto">
                     </div>
                 </div>
 
                 <!-- Feature 3: Whiteboard & AI -->
                 <div class="grid md:grid-cols-2 gap-12 items-center">
                     <div class="order-2 md:order-1 bg-slate-900 rounded-xl overflow-hidden border border-slate-800 shadow-2xl">
-                        <img src="http://googleusercontent.com/image_collection/image_retrieval/2948155396394704910" alt="AI Coding" class="w-full h-auto">
+                        <!-- UPDATED: HTTPS Protocol -->
+                        <img src="https://googleusercontent.com/image_collection/image_retrieval/2948155396394704910" alt="AI Coding" class="w-full h-auto">
                     </div>
                     <div class="order-1 md:order-2">
                         <div class="w-12 h-12 bg-purple-900/30 rounded-lg flex items-center justify-center mb-6">
